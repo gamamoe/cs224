@@ -32,13 +32,13 @@ Word2vec
              
 *  loss
     - t = center, m = window-size
-<img src="/w2v.png" width="700px" title="w2v loss" alt="w2vloss"></img>
+<img src="cs224n-lecture01-wordvecs1/w2v.png" width="700px" title="w2v loss" alt="w2vloss"></img>
 
 *  prediction function
     - P(Wt+j|Wt)를 simplify: 각 단어가 2가지 백터(u,v)를 가짐
     - 목적: maximize prediction(인접한 단어들이 비슷한 공간에놓기)
     
-<img src="/w2v_prediction.png" width="800px" title="w2v pred" alt="w2vpred"></img>
+<img src="cs224n-lecture01-wordvecs1/w2v_prediction.png" width="800px" title="w2v pred" alt="w2vpred"></img>
 
 *  Optimization
 prediction function을 미분해서 u,v의 방향을 알아보자
@@ -46,6 +46,6 @@ prediction function을 미분해서 u,v의 방향을 알아보자
     - slope of vc
     
     
-<img src="/softmax1.jpg" width="500px" title="" alt=""></img>
+<img src="cs224n-lecture01-wordvecs1/softmax1.jpg" width="500px" title="" alt=""></img>
 
-<img src="/softmax2.jpg" width="500px" title="" alt=""></img>
+<img src="cs224n-lecture01-wordvecs1/softmax2.jpg" width="500px" title="" alt=""></img>
