@@ -1,7 +1,8 @@
 cs224n-lecture06-Dependency Parsing
 =============
-# Two views of linguistic structure
-------------
+Two views of linguistic structure
+-------------
+
 1. Phrase Structure (context free grammar)
 : 문장을 구성하는 규칙, 유형에 따라 분석
 
@@ -23,7 +24,7 @@ cs224n-lecture06-Dependency Parsing
 * 중의적인 문장들에서 오해하지 않기 위해
 
 
-# How to build dependency parser
+How to build dependency parser
 ------------
 <img src="dependency.png" width="400px" title="" alt="n"></img>
 
