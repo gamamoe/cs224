@@ -1,4 +1,4 @@
-cs224n-lecture06-Dependency Parsing
+cs224n-lecture05-Dependency Parsing
 =============
 Two views of linguistic structure
 -------------
