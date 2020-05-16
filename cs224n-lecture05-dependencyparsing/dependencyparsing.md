@@ -48,7 +48,7 @@ How to build dependency parser
  
 <img src="parserexample1.png" width="300px" title="" alt="n"></img>
 
-<img src="parserexample1.png" width="300px" title="" alt="n"></img>
+<img src="parserexample2.png" width="300px" title="" alt="n"></img>
 
 
 * MaltParser
