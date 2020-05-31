@@ -9,60 +9,60 @@ Last Edited: May 31, 2020 2:13 PM
 
 어떤 단어가 다음에 올 지 예측하는 태스크
 
-![cs224n%20rnnlm/Untitled.png](cs224n%20rnnlm/Untitled.png)
+![cs224n-rnnlm/Untitled.png](cs224n%20rnnlm/Untitled.png)
 
 이런 작업을 하는 것들을 **Language Model** 이라고 함
 
 활용 Applications - Autocomplete
 
-![cs224n%20rnnlm/Untitled%201.png](cs224n%20rnnlm/Untitled%201.png)
+![cs224n-rnnlm/Untitled%201.png](cs224n%20rnnlm/Untitled%201.png)
 
-![cs224n%20rnnlm/Untitled%202.png](cs224n%20rnnlm/Untitled%202.png)
+![cs224n-rnnlm/Untitled%202.png](cs224n%20rnnlm/Untitled%202.png)
 
 ### n-gram Language Models
 
-![cs224n%20rnnlm/Untitled%203.png](cs224n%20rnnlm/Untitled%203.png)
+![cs224n-rnnlm/Untitled%203.png](cs224n%20rnnlm/Untitled%203.png)
 
 Markov assumption 활용해서 이전 n-1에만 depend 한다는 가정
 
 결국 큰 코퍼스 셋에서 count 세서 probability 계산함
 
-![cs224n%20rnnlm/Untitled%204.png](cs224n%20rnnlm/Untitled%204.png)
+![cs224n-rnnlm/Untitled%204.png](cs224n%20rnnlm/Untitled%204.png)
 
-![cs224n%20rnnlm/Untitled%205.png](cs224n%20rnnlm/Untitled%205.png)
+![cs224n-rnnlm/Untitled%205.png](cs224n%20rnnlm/Untitled%205.png)
 
-![cs224n%20rnnlm/Untitled%206.png](cs224n%20rnnlm/Untitled%206.png)
+![cs224n-rnnlm/Untitled%206.png](cs224n%20rnnlm/Untitled%206.png)
 
 - Smoothing → 계산하려는 n-gram 형태가 없는 경우
 - Backoff → 이전 context (n-1)-gram이 존재하지 않은 경우
 
-![cs224n%20rnnlm/Untitled%207.png](cs224n%20rnnlm/Untitled%207.png)
+![cs224n-rnnlm/Untitled%207.png](cs224n%20rnnlm/Untitled%207.png)
 
 Language Model을 이용해서 Text generation이 가능함
 
-![cs224n%20rnnlm/Untitled%208.png](cs224n%20rnnlm/Untitled%208.png)
+![cs224n-rnnlm/Untitled%208.png](cs224n%20rnnlm/Untitled%208.png)
 
 ### Neural Language Model
 
-![cs224n%20rnnlm/Untitled%209.png](cs224n%20rnnlm/Untitled%209.png)
+![cs224n-rnnlm/Untitled%209.png](cs224n%20rnnlm/Untitled%209.png)
 
 ## Recurrent Neural Networks (RNN)
 
-![cs224n%20rnnlm/Untitled%2010.png](cs224n%20rnnlm/Untitled%2010.png)
+![cs224n-rnnlm/Untitled%2010.png](cs224n%20rnnlm/Untitled%2010.png)
 
-![cs224n%20rnnlm/Untitled%2011.png](cs224n%20rnnlm/Untitled%2011.png)
+![cs224n-rnnlm/Untitled%2011.png](cs224n%20rnnlm/Untitled%2011.png)
 
 ### Training RNN
 
-![cs224n%20rnnlm/Untitled%2012.png](cs224n%20rnnlm/Untitled%2012.png)
+![cs224n-rnnlm/Untitled%2012.png](cs224n%20rnnlm/Untitled%2012.png)
 
-![cs224n%20rnnlm/Untitled%2013.png](cs224n%20rnnlm/Untitled%2013.png)
+![cs224n-rnnlm/Untitled%2013.png](cs224n%20rnnlm/Untitled%2013.png)
 
 ### Evaluating Language Models
 
-![cs224n%20rnnlm/Untitled%2014.png](cs224n%20rnnlm/Untitled%2014.png)
+![cs224n-rnnlm/Untitled%2014.png](cs224n%20rnnlm/Untitled%2014.png)
 
-![cs224n%20rnnlm/Untitled%2015.png](cs224n%20rnnlm/Untitled%2015.png)
+![cs224n-rnnlm/Untitled%2015.png](cs224n%20rnnlm/Untitled%2015.png)
 
 ### Summary
 
