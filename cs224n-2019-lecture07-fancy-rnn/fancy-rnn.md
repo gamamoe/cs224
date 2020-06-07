@@ -11,6 +11,8 @@ Vanishing Gradient
 
 <img src="vg1.png" width="400px" title="" alt="n"></img>
 
+* 발생원인
+
 <img src="vg3.png" width="600px" title="" alt="n"></img>
 
 * 문제가 되는 이유
